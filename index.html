@@ -1,6 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Primary Meta Tags -->
+    <title>Unit conveter</title>
+    <meta name="title" content="Unit conveter" />
+    <meta name="description" content="advance unit conveter" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta property="og:title" content="Unit conveter" />
+    <meta property="og:description" content="advance unit conveter" />
+    <meta
+      property="og:image"
+      content="https://cdn.discordapp.com/attachments/943172350139052092/1043607242689237012/unit_conveter.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta property="twitter:title" content="Unit conveter" />
+    <meta property="twitter:description" content="advance unit conveter" />
+    <meta
+      property="twitter:image"
+      content="https://cdn.discordapp.com/attachments/943172350139052092/1043607242689237012/unit_conveter.png"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,8 +33,33 @@
   </head>
   <body>
     <div class="container">
+      <span>MY UNIT CONVERTER</span>
       <div class="content">
-        <h1>MY UNIT CONVITER</h1>
+        <input placeholder="number" id="number" />
+        <select id="currentUnit">
+          <option>kilometer</option>
+          <option>hectometer</option>
+          <option>decameter</option>
+          <option>meter</option>
+          <option>gram</option>
+          <option>leter</option>
+          <option>decimeter</option>
+          <option>centimeter</option>
+          <option>millimeter</option>
+        </select>
+        <select id="newUnit">
+          <option>kilometer</option>
+          <option>hectometer</option>
+          <option>decameter</option>
+          <option>meter</option>
+          <option>gram</option>
+          <option>leter</option>
+          <option>decimeter</option>
+          <option>centimeter</option>
+          <option>millimeter</option>
+        </select>
+        <button onclick="ConvertUnit()">CONVERT</button>
+
         <p id="data"></p>
       </div>
     </div>

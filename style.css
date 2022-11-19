@@ -18,7 +18,26 @@ div.content {
   margin: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 8px;
+}
+#number {
+  width: 80%;
+  margin: 4px 0px;
+}
+select {
+  width: 80%;
+  margin: 4px 0px;
+}
+h1 {
+  align-self: center;
+  background-color: red;
+}
+button {
+  background-color: blue;
+  padding: 6px;
+  border-style: solid;
+  color: white;
+  border-radius: 12px;
 }
